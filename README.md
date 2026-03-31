@@ -66,7 +66,7 @@
   bun run version
   ```
 
-  Using　local model:
+  ## Using　local model:
   
   Option 1: Add an .env file in the project root directory and add the following configuration:
   ```bash
@@ -157,7 +157,7 @@
   bun run version
   ```
 
-  使用本地模型:
+  ## 使用本地模型:
   
   选择1: 在项目根目录添加 　.env　文件，添加以下配置：
   ```bash
