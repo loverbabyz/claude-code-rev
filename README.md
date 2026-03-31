@@ -68,7 +68,7 @@
 
   ## Use local model:
   
-  Option 1: Add an .env file in the project root directory and add the following configuration:
+  - Option 1: Add an .env file in the project root directory and add the following configuration:
   ```bash
   ANTHROPIC_BASE_URL='{BASE_URL}'
   ANTHROPIC_AUTH_TOKEN='{AUTH_TOKEN}'
@@ -84,7 +84,7 @@
   bun run dev
   ```
 
-  Option 2: Directly prefix the environment variable before the command：
+  - Option 2: Directly prefix the environment variable before the command：
     Run:
   ```bash
   ANTHROPIC_BASE_URL='{BASE_URL}' ANTHROPIC_AUTH_TOKEN='{AUTH_TOKEN}' ANTHROPIC_DEFAULT_OPUS_MODEL='{OPUS_MODEL_NAME}' ANTHROPIC_DEFAULT_SONNET_MODEL='{SONNET_MODEL_NAME}' ANTHROPIC_DEFAULT_HAIKU_MODEL='{HAIKU_MODEL_NAME}' API_TIMEOUT_MS=3000000 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1 bun run dev
@@ -159,7 +159,7 @@
 
   ## 使用本地模型:
   
-  选择1: 在项目根目录添加 　.env　文件，添加以下配置：
+  - 选择1: 在项目根目录添加 　.env　文件，添加以下配置：
   ```bash
   ANTHROPIC_BASE_URL='{BASE_URL}'
   ANTHROPIC_AUTH_TOKEN='{AUTH_TOKEN}'
@@ -175,7 +175,7 @@
   bun run dev
   ```
 
-  选择2: 直接在命令前加环境变量前缀：
+  - 选择2: 直接在命令前加环境变量前缀：
     Run:
   ```bash
   ANTHROPIC_BASE_URL='{BASE_URL}' ANTHROPIC_AUTH_TOKEN='{AUTH_TOKEN}' ANTHROPIC_DEFAULT_OPUS_MODEL='{OPUS_MODEL_NAME}' ANTHROPIC_DEFAULT_SONNET_MODEL='{SONNET_MODEL_NAME}' ANTHROPIC_DEFAULT_HAIKU_MODEL='{HAIKU_MODEL_NAME}' API_TIMEOUT_MS=3000000 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1 bun run dev
