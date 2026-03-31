@@ -66,7 +66,7 @@
   bun run version
   ```
 
-  ## Using　local model:
+  ## Use local model:
   
   Option 1: Add an .env file in the project root directory and add the following configuration:
   ```bash
